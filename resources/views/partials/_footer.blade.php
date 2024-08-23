@@ -51,7 +51,7 @@
 
           <div class="col-lg-4 col-md-7">
             <div class="footer-info">
-              <h3>ITTS Legal Consultation</h3>
+              <h3>ITTS Services</h3>
               <p>
                 {{-- 1475 Buford Dr. <br>
                 Suite # 403-747 <br>
@@ -93,7 +93,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright {{ \Carbon\Carbon::now()->format('Y') }} <strong><span>ITTS Legal Consultation</span></strong>. All Rights Reserved.
+        &copy; Copyright {{ \Carbon\Carbon::now()->format('Y') }} <strong><span>ITTS Services</span></strong>. All Rights Reserved.
       </div>
     </div>
   </footer>
