@@ -11,9 +11,9 @@
             <div class="section-title">
                 <h2 class="text-ind-blue">Overview</h2>
             </div>
-            <p class="text-justify"><strong>ITTS Legal Consultation</strong> is an experienced call center. We have been a reliable provider of high quality services since 2017. Our award-winning agents are known for continuously delivering professional results while handling calls accurately and efficiently.</p>
+            <p class="text-justify"><strong>ITTS Services</strong> is an experienced call center. We have been a reliable provider of high quality services since 2017. Our award-winning agents are known for continuously delivering professional results while handling calls accurately and efficiently.</p>
             <p class="text-justify"><strong>ITTS</strong> takes up outsourcing processes that are enabled by information technology. These services span over diverse areas like Mass Tort, Customer Service, Lead Generation, Appointment Setting, Sales and Support, Auto Warranty, Health Insurance, MCA (b2b) and Home Security campaigns as Outbound Services.</p>
-            <p class="text-justify"><strong>ITTS Legal Consultation</strong> is a leader in the management of business processes for different companies across the United States and other countries. To deliver a wide range of services, the company combines process knowledge for both BPO and IT in several industries.</p>
+            <p class="text-justify"><strong>ITTS Services</strong> is a leader in the management of business processes for different companies across the United States and other countries. To deliver a wide range of services, the company combines process knowledge for both BPO and IT in several industries.</p>
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
                     <div class="card h-100 shadow-sm">
