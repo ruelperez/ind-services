@@ -11,10 +11,6 @@ class CaseRecord extends Model
     protected $table = 'cases';
     protected $fillable = [
         'type',
-        'is_attorney',
-        'description',
-        'is_hospitalized',
-        'date_injured',
         'call_time',
         'firstname',
         'lastname',

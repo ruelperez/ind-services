@@ -12,9 +12,6 @@ class CasesController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'type' => 'required',
-            'is_attorney' => 'required',
-            'description' => 'required',
-            'is_hospitalized' => 'required',
             'date_injured' => 'required',
             'call_time' => 'required',
             'firstname' => 'required',

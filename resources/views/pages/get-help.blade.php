@@ -18,16 +18,17 @@
                                 <label class="mb-2">Type of Product Liability</label>
                                 <select name="type" class="form-control">
                                     <option value="">-- select --</option>
-                                    <option value="Camp Lejune Water Contamination">Camp Lejune Water Contamination</option>
-                                    <option value="Firefighting Foam">Firefighting Foam</option>
-                                    <option value="NEC Baby Formula">NEC Baby Formula</option>
-                                    <option value="Zantac">Zantac</option>
-                                    <option value="Talcum Powder">Talcum Powder</option>
-                                    <option value="Paraquat">Paraquat</option>
-                                    <option value="Roundup">Roundup</option>
-                                    <option value="CPAP">CPAP</option>
-                                    <option value="Mesothelioma">Mesothelioma</option>
-                                    <option value="Other">Other</option>
+                                    <option value="Home Security">Home Security</option>
+{{--                                    <option value="Camp Lejune Water Contamination">Camp Lejune Water Contamination</option>--}}
+{{--                                    <option value="Firefighting Foam">Firefighting Foam</option>--}}
+{{--                                    <option value="NEC Baby Formula">NEC Baby Formula</option>--}}
+{{--                                    <option value="Zantac">Zantac</option>--}}
+{{--                                    <option value="Talcum Powder">Talcum Powder</option>--}}
+{{--                                    <option value="Paraquat">Paraquat</option>--}}
+{{--                                    <option value="Roundup">Roundup</option>--}}
+{{--                                    <option value="CPAP">CPAP</option>--}}
+{{--                                    <option value="Mesothelioma">Mesothelioma</option>--}}
+{{--                                    <option value="Other">Other</option>--}}
                                 </select>
                             </div>
                             <div class="form-group mb-3">
