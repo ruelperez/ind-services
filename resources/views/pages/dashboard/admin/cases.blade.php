@@ -3,8 +3,8 @@
 @section('content')
 <div class="page-header">
     <div class="page-title">
-        <h4>Cases List</h4>
-        <h6>Manage your Cases</h6>
+        <h4>CRM</h4>
+        <h6>Manage your CRM</h6>
     </div>
 </div>
 <div class="card">
@@ -92,11 +92,9 @@
                             </label>
                         </th>
                         <th>Action</th>
-                        <th>Liability Type</th>
-                        <th>Has Attorney</th>
-                        <th>Case Description</th>
-                        <th>Hospitalized ?</th>
-                        <th>Date Injured</th>
+                        <th>Product Type</th>
+{{--                        <th>Date Injured</th>--}}
+                        <th>Date</th>
                         <th>Call Time</th>
                         <th>First Name</th>
                         <th>Last Name</th>
@@ -129,10 +127,11 @@
                                 </a>
                             </td>
                             <td>{{ $case->type }}</td>
-                            <td>{{ $case->is_attorney == 0 ? 'No' : 'Yes' }}</td>
-                            <td>{{ $case->description }}</td>
-                            <td>{{ $case->is_hospitalized == 0 ? 'No' : 'Yes' }}</td>
-                            <td>{{ $case->date_injured }}</td>
+{{--                            <td>{{ $case->is_attorney == 0 ? 'No' : 'Yes' }}</td>--}}
+{{--                            <td>{{ $case->description }}</td>--}}
+{{--                            <td>{{ $case->is_hospitalized == 0 ? 'No' : 'Yes' }}</td>--}}
+{{--                            <td>{{ $case->date_injured }}</td>--}}
+                            <td>{{ $case->updated_at->format('m-d-Y') }}</td>
                             <td>{{ $case->call_time }}</td>
                             <td>{{ $case->firstname }}</td>
                             <td>{{ $case->lastname }}</td>

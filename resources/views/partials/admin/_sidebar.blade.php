@@ -11,7 +11,7 @@
               <li id="CasesPageItem">
                 <a href="{{ url('/dashboard/admin/cases') }}">
                   <img src="{{ asset('admin/img/icons/transcation.svg') }}" alt="img">
-                  <span> Cases</span>
+                  <span> CRM</span>
                 </a>
               </li>
               {{-- <li id="CasesPageItem">

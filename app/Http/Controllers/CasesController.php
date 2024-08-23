@@ -12,7 +12,6 @@ class CasesController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'type' => 'required',
-            'date_injured' => 'required',
             'call_time' => 'required',
             'firstname' => 'required',
             'lastname' => 'required',
@@ -32,10 +31,6 @@ class CasesController extends Controller
 
         $newCase = CaseRecord::create([
             'type' => $request->type,
-            'is_attorney' => $request->is_attorney,
-            'description' => $request->description,
-            'is_hospitalized' => $request->is_hospitalized,
-            'date_injured' => $request->date_injured,
             'call_time' => $request->call_time,
             'firstname' => $request->firstname,
             'lastname' => $request->lastname,
