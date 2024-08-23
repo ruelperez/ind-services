@@ -37,7 +37,7 @@
                             </p>
                         </div>
                         <div class="card-body d-flex align-items-center">
-                            <p><strong>ITTS Legal Consultation</strong> will inspire its employees to be the best they can be. We will engage in sustainable practices and anticipate the needs of our customers. We will maximize return to the clients while still maintaining Quality in our work.</p>
+                            <p><strong>ITTS Services</strong> will inspire its employees to be the best they can be. We will engage in sustainable practices and anticipate the needs of our customers. We will maximize return to the clients while still maintaining Quality in our work.</p>
                         </div>
                     </div>
                 </div>

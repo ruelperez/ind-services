@@ -4,13 +4,16 @@
 <section style="background-image: url('{{ asset('assets/img/call-center.jpg') }}'); background-size: cover">
     <div class="container">
         <div class="section-title">
-            <p class="ind-page-subtitle text-white">Have you been affected by a Product?</p>
+            <p class="ind-page-subtitle text-white">Did the product/services catch your interest?</p>
         </div>
         <div class="card border-0 shadow-sm transparent-card" style="border-radius: 0px">
             <div class="card-body p-5">
                 <form id="getHelpForm" style="color: #000000">
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-sm-12 col-lg-3">
+
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="form-group mb-3">
                                 <label class="mb-2">Type of Product Liability</label>
                                 <select name="type" class="form-control">
@@ -27,41 +30,6 @@
                                     <option value="Other">Other</option>
                                 </select>
                             </div>
-                            <div class="form-group mb-3">
-                                <label class="mb-2">Is an attorney helping you with your case?</label>
-                                <select name="is_attorney" class="form-control">
-                                    <option value="">-- select --</option>
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-                            <div class="form-group mb-3">
-                                <label class="mb-2">Describe your case</label>
-                                <textarea name="description" class="form-control"></textarea>
-                            </div>
-                            <div class="form-group mb-3">
-                                <label class="mb-2">Were you hospitalized or received treatment?</label>
-                                <select name="is_hospitalized" class="form-control">
-                                    <option value="">-- select --</option>
-                                    <option value="1">Yes</option>
-                                    <option value="0">No</option>
-                                </select>
-                            </div>
-                            <div class="form-group mb-3">
-                                <label class="mb-2">Year of Injury</label>
-                                <input type="date" name="date_injured" class="form-control">
-                            </div>
-                            <div class="form-group mb-3">
-                                <label class="mb-2">Best time to call</label>
-                                <select name="call_time" class="form-control">
-                                    <option value="">-- select --</option>
-                                    <option value="Morning">Morning</option>
-                                    <option value="Afternoon">Afternoon</option>
-                                    <option value="Evening">Evening</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="form-group mb-3">
                                 <label class="mb-2">First Name</label>
                                 <input type="text" name="firstname" class="form-control">
@@ -87,6 +55,15 @@
                                 <textarea name="address" class="form-control"></textarea>
                             </div>
                             <div class="form-group mb-3">
+                                <label class="mb-2">Best time to call</label>
+                                <select name="call_time" class="form-control">
+                                    <option value="">-- select --</option>
+                                    <option value="Morning">Morning</option>
+                                    <option value="Afternoon">Afternoon</option>
+                                    <option value="Evening">Evening</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="terms" value="1">
                                     <label class="form-check-label text-small" for="flexCheckDefault" style="text-align: justify; color: #00000 !important">
@@ -102,6 +79,9 @@
                                     </button>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-3">
+
                         </div>
                     </div>
                 </form>
