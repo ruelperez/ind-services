@@ -6,7 +6,7 @@
         <div class="section-title">
             <p class="ind-page-subtitle text-white">Did the product/services catch your interest?</p>
         </div>
-        <div class="card border-0 shadow-sm transparent-card" style="border-radius: 0px">
+        <div class="card border-0 shadow-sm transparent-card" style="border-radius: 0px;">
             <div class="card-body p-5">
                 <form id="getHelpForm" style="color: #000000">
                     <div class="row">
@@ -89,7 +89,7 @@
         </div>
     </div>
 </section>
-@include('partials._faq')
+{{--@include('partials._faq')--}}
 @endsection
 
 @push('js')
