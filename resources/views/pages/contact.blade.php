@@ -31,9 +31,9 @@
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
                             <i class="display-4 bx bx-file mb-3 text-ind-blue"></i>
-                            <p><strong>START A NEW CASE</strong></p>
+                            <p><strong>CONNECT WITH US</strong></p>
                             <hr>
-                            <p class="mt-5 mb-5">Just send us your questions or concerns by starting a new case and we will give you the help that you need.</p>
+                            <p class="mt-5 mb-5">Send us your questions or concerns by starting a new inquiry, and we'll provide the information you need about our product.</p>
                         </div>
                         <div class="card-footer">
                             <a href="{{ url('get-help') }}" class="btn btn-primary d-grid">
@@ -60,7 +60,7 @@
             </div>
         </div>
     </section>
-    @include('partials._faq')
+{{--    @include('partials._faq')--}}
 </main>
 
 @endsection

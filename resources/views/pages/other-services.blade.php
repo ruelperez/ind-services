@@ -24,7 +24,7 @@
                     <div class="btn ind-services-btn d-grid p-3 mb-3 text-center" style="border-radius: 0px;">
                         Health Insurance
                     </div>
-                    <div class="btn ind-services-btn d-grid p-3 mb-3 text-center" style="border-radius: 0px;">
+                    <div onclick="location.href = '/services/mass-tort/home-security';" class="btn ind-services-btn d-grid p-3 mb-3 text-center" style="border-radius: 0px;">
                         Home Security
                     </div>
                     <div class="btn ind-services-btn d-grid p-3 mb-3 text-center" style="border-radius: 0px;">
