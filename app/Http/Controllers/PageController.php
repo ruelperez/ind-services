@@ -41,7 +41,7 @@ class PageController extends Controller
         if (file_exists($views)) {
             $title = Str::title($page);
             if ($title == 'Cpap-Lawsuit') $title = 'CPAP Lawsuit';
-            if ($title == 'Pfas-Lawsuit') $title = 'PFAS Lawsuit';  
+            if ($title == 'Pfas-Lawsuit') $title = 'PFAS Lawsuit';
             return view("pages.services.mass-tort.$page", ['title' => Str::replace('-', ' ', $title)]);
         } else {
             abort(404);
