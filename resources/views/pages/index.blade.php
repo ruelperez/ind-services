@@ -23,21 +23,7 @@
     <section class="gray-gradient-bg">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-3 col-lg-3 mb-3">
-{{--                    <div class="card ind-services-btn h-100 shadow-sm border-0">--}}
-{{--                        <div class="card-body text-center">--}}
-{{--                            <p class="fw-bold text-white text-uppercase mt-5 mb-5" style="font-size: 20px">Mass Tort Services</p>--}}
-{{--                            <p class="text-white">Utilizing our exceptional solutions and processes, Mass Tort Services excels at capturing and responding to a large influx of leads generated ensuring optimal lead management and client engagement.</p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-                    <div class="card h-100 shadow-sm border-0">
-                        <div class="card-body text-center">
-                            <p class="fw-bold text-uppercase mt-5 mb-5" style="font-size: 20px">Mass Tort Services</p>
-                            <p>Utilizing our exceptional solutions and processes, Mass Tort Services excels at capturing and responding to a large influx of leads generated ensuring optimal lead management and client engagement.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 mb-3">
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
                     <div class="card ind-services-btn h-100 shadow-sm border-0">
                         <div class="card-body text-center">
                             <p class="fw-bold text-white text-uppercase mt-5 mb-5" style="font-size: 20px">Lead Generation Services</p>
@@ -45,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 mb-3">
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
                     <div class="card h-100 shadow-sm border-0">
                         <div class="card-body text-center">
                             <p class="fw-bold text-center text-uppercase mt-5 mb-5" style="font-size: 20px">Sales & Support</p>
@@ -53,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 mb-3">
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
                     <div class="card h-100 shadow-sm border-0">
                         <div class="card-body text-center">
                             <p class="fw-bold text-center text-uppercase mt-5 mb-5" style="font-size: 20px">Chat & Email Services</p>
