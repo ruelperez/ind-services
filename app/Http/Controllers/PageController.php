@@ -10,7 +10,7 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('pages.index', ['title' => 'ITTS Legal Consultation']);
+        return view('pages.index', ['title' => 'ITTS Services']);
     }
 
     public function page($page)
