@@ -22,11 +22,9 @@ Route::get('login', function () {
 Route::get('/{page}', [PageController::class, 'page']);
 Route::get('services/{page}', [PageController::class, 'services']);
 
-Route::prefix('services')->group(function () {
-    Route::prefix('mass-tort')->group(function () {
-        Route::get('{page}', [PageController::class, 'massTort']);
-    });
-});
+//Route::prefix('services')->group(function () {
+//    Route::get('{page}', [PageController::class, 'massTort']);
+//});
 
 Route::prefix('func')->group(function () {
     Route::prefix('auth')->controller(AuthController::class)->group(function () {
