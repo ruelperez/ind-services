@@ -2218,6 +2218,7 @@ section {
     overflow: hidden;
     position: relative;
     margin-top: 75px !important;
+    height: 550px;
 }
 
 .services-header .overlay {

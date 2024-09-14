@@ -1,5 +1,5 @@
 <!-- ======= Header ======= -->
-<header id="header" class="fixed-top shadow border">
+<header id="header" class="fixed-top shadow">
     <div class="heading-top border">
         <div class="container">
 {{--            --}}{{-- <p>--}}
@@ -34,12 +34,13 @@
         {{--                    <li><a href="{{ url('services/mass-tort/mesothelioma-lawsuit') }}">Mesothelioma Lawsuit</a></li>--}}
         {{--                    <li><a href="{{ url('services/mass-tort/rideshare-lawsuit') }}">Rideshare Lawsuit</a></li>--}}
                             <li><a href="{{ url('services/home-security') }}">Home Security</a></li>
+                            <li><a href="{{ url('services/tv-services') }}">TV Services</a></li>
                             <li><a href="{{ url('other-services') }}">Other Services</a></li>
                         </ul>
                     </li>
                     <li><a href="{{ asset('/about') }}">About Us</a></li>
                     <li><a href="{{ url('/contact') }}">Contact Us</a></li>
-                    <li><a href="{{ url('/get-started') }}" class="getstarted">Get Started</a></li>
+                    <li><a href="{{ url('/get-started') }}" class="getstarted">Get Yours Now</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
