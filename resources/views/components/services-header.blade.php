@@ -2,18 +2,21 @@
     <div class="overlay"></div>
     <div class="container" style="position: relative; z-index: 2; margin-top: 40px">
         <div class="row">
-            <div class="col-1 border border-dark">
+            <div class="col-1">
 
             </div>
-            <div class="col-5 section-title border border-dark">
-                <p class="text-ind-dark">The Best TV Experience at Your Fingertips</p>
-                <h3 class="text-ind-dark mt-2"><b>Great Offers Await!</b></h3>
-                <button class="btn btn-dark w-50 mt-2">Get Yours Now!</button>
+            <div class="col-5 section-title">
+                <p class="text-ind-dark">{{$title}}</p>
+                @if($title == "Tv-Services")
+                    <p class="text-ind-dark">The Best TV Experience at Your Fingertips</p>
+                    <h3 class="text-ind-dark mt-2"><b>Great Offers Await!</b></h3>
+                    <button class="btn btn-dark w-50 mt-2">Get Yours Now!</button>
+                @endif
             </div>
-            <div class="col-1 border border-dark">
+            <div class="col-1">
 
             </div>
-            <div class="col-5 border border-dark">
+            <div class="col-5">
 
             </div>
         </div>
