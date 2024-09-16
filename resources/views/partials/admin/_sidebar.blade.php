@@ -17,7 +17,7 @@
                <li id="CasesPageItem">
                 <a href="http://webmail.ittslegalconsultation.com/" target="_blank">
                   <img src="{{ asset('admin/img/icons/mail.svg') }}" alt="img">
-                  <span> Webmail</span>
+                  <span> </span>
                 </a>
               </li>
             </ul>

@@ -52,5 +52,5 @@
     </div>
 </section>
 
-@include('partials._faq')
+{{--@include('partials._faq')--}}
 @endsection
