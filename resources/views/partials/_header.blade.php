@@ -40,7 +40,7 @@
                     </li>
                     <li><a href="{{ asset('/about') }}">About Us</a></li>
                     <li><a href="{{ url('/contact') }}">Contact Us</a></li>
-                    <li><a href="{{ url('/get-started') }}" class="getstarted">Get Yours Now</a></li>
+                    <li><a href="{{ url('/get-yours',['title' => $title]) }}" class="getstarted">Get Yours Now</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

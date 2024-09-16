@@ -11,6 +11,8 @@ use App\Http\Controllers\ExportController;
 
 Route::get('/', [PageController::class, 'index']);
 
+Route::get('/get-yours/{services}', [PageController::class, 'get_yours']);
+
 Route::get('case/view/{uniqueURL}', [PageController::class, 'viewCase']);
 
 Route::get('login', function () {
