@@ -37,7 +37,7 @@
 
 <body>
 
-  @include('partials._header', ['title' => $title])
+  @include('partials._header')
 
   <div style="margin-top: 75px">
     @yield('content')
