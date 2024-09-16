@@ -12,7 +12,7 @@
                 @if($title == "Tv-Services")
                     <p class="text-ind-dark">The Best TV Experience at Your Fingertips</p>
                     <h3 class="text-ind-dark mt-2"><b>Great Offers Await!</b></h3>
-                    <button class="btn btn-dark w-50 mt-2">Choose the Best Plan Now!</button>
+                    <button onclick="window.location.href='{{ url('/get-started') }}'" class="btn btn-dark w-50 mt-2"><i class="bx bi-box-arrow-right me-2"></i> CHOOSE YOUR PLAN NOW!</button>
                 @endif
             </div>
             <div class="col-1">
