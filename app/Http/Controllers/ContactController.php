@@ -20,6 +20,12 @@ class ContactController extends Controller
         if ($validator->fails()) {
             return response(['errors' => $validator->errors()], 401);
         }
+        Contact::create([
+            'fullname' => $request->name,
+            'phone' => $request->phone,
+            'email' => $request->email,
+            'description' => $request->message
+        ]);
         // Dispatch job to send contact message in email
         SendContactMessage::dispatch([
             'name' => $request->name,

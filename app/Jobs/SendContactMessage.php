@@ -32,8 +32,5 @@ class SendContactMessage implements ShouldQueue
     public function handle(): void
     {
         Mail::to('info@ittslegalconsultation.com')->send(new ContactMail($this->content));
-        Contact::create([
-            ''
-        ]);
     }
 }
