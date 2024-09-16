@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Models\Contact;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -31,5 +32,8 @@ class SendContactMessage implements ShouldQueue
     public function handle(): void
     {
         Mail::to('info@ittslegalconsultation.com')->send(new ContactMail($this->content));
+        Contact::create([
+            ''
+        ]);
     }
 }
