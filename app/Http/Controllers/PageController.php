@@ -24,21 +24,6 @@ class PageController extends Controller
         }
     }
 
-    public function get_yours($services){
-        $str = $services;
-        $result = implode('-', array_map(function($word) {
-            return strtolower($word[0]) . substr($word, 1);
-        }, explode('-', $str)));
-
-        $views = resource_path() . "/views/pages/get-yours/$result.blade.php";
-        if (file_exists($views)) {
-            $title = Str::title($result);
-            return view("pages.get-yours.$result", ['title' => Str::replace('-', ' ', $title)]);
-        } else {
-            abort(404);
-        }
-    }
-
     public function services($page)
     {
         $views = resource_path() . "/views/pages/services/$page.blade.php";
