@@ -18,10 +18,9 @@ class CasesExport implements FromQuery, WithHeadings, WithStyles, ShouldAutoSize
     {
         return CaseRecord::query()->select(
             'type',
-            DB::raw('CASE WHEN is_attorney = 1 THEN "Yes" ELSE "No" END AS is_attorney'),
-            'description',
-            DB::raw('CASE WHEN is_hospitalized = 1 THEN "Yes" ELSE "No" END AS is_hospitalized'),
-            'date_injured',
+//            DB::raw('CASE WHEN is_attorney = 1 THEN "Yes" ELSE "No" END AS is_attorney'),
+//            'description',
+//            DB::raw('CASE WHEN is_hospitalized = 1 THEN "Yes" ELSE "No" END AS is_hospitalized'),
             'call_time',
             'firstname',
             'lastname',
@@ -37,10 +36,10 @@ class CasesExport implements FromQuery, WithHeadings, WithStyles, ShouldAutoSize
     {
         return [
             'Liability Type',
-            'Has Attorney',
-            'Description',
-            'Is Hospitalized',
-            'Year Injured',
+//            'Has Attorney',
+//            'Description',
+//            'Is Hospitalized',
+//            'Year Injured',
             'Call Time',
             'First Name',
             'Last Name',
