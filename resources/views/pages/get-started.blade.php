@@ -4,14 +4,17 @@
 <section style="background-image: url('{{ asset('assets/img/call-center.jpg') }}'); background-size: cover">
     <div class="container">
         <div class="section-title">
-            <p class="ind-page-subtitle text-white">Did the product/services catch your interest?</p>
+            <p class="ind-page-subtitle text-white">Congratulations! Your Exclusive Offer Awaits</p>
         </div>
         <div class="card border-0 shadow-sm transparent-card" style="border-radius: 0px;">
+            <div class="text-center mt-4">
+                <h5>Our team looks forward to contact you. Please fill out the form promptly.</h5>
+                <h6><i><b>(Put "na" if not applicable)</b></i></h6>
+            </div>
             <div class="card-body p-5">
                 <form id="getHelpForm" style="color: #000000">
                     <div class="row">
                         <div class="col-sm-12 col-lg-3">
-
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-6">
                             <div class="form-group mb-3">
@@ -46,7 +49,7 @@
                             </div>
                             <div class="form-group mb-3">
                                 <label class="mb-2">Email</label>
-                                <input type="email" name="email" class="form-control">
+                                <input type="text" name="email" class="form-control">
                             </div>
                             <div class="form-group mb-3">
                                 <label class="mb-2">Zip Code</label>
@@ -69,7 +72,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="terms" value="1">
                                     <label class="form-check-label text-small" for="flexCheckDefault" style="text-align: justify; color: #00000 !important">
-                                        By clicking the button above, I provide my electronic signature hereby agreeing to this website's <a href="{{ url('privacy-policy') }}"><b>PRIVACY POLICY</b></a>, <a href="{{ url('tcpa-consent') }}"><b>TCPA Consent</b></a> & <a href="{{ url('privacy-disclaimer') }}"><b>Privacy Disclaimer</b></a> and expressly consent to receive marketing and telemarketing contact, including calls to my cellular phone, via automatic telephone dialing system, emails, and/or text messages from this website and trusted partners, attorneys or their agents regarding services indicated in this website. I will receive contact even if I previosuly registered on a state or federal do not contact list. I understand that my consent to receive communications in this manner is not required as a condition of purchasing any goods or services. My telephone company may impose charges for these contacts.
+                                        By clicking the button above, I provide my electronic signature hereby agreeing to this website's <a href="{{ url('privacy-policy') }}">PRIVACY POLICY</a>, <a href="{{ url('tcpa-consent') }}">TCPA Consent</a> & <a href="{{ url('privacy-disclaimer') }}">Privacy Disclaimer</a> and expressly consent to receive marketing and telemarketing contact, including calls to my cellular phone, via automatic telephone dialing system, emails, and/or text messages from this website and trusted partners, attorneys or their agents regarding services indicated in this website. I will receive contact even if I previosuly registered on a state or federal do not contact list. I understand that my consent to receive communications in this manner is not required as a condition of purchasing any goods or services. My telephone company may impose charges for these contacts.
                                     </label>
                                 </div>
                             </div>

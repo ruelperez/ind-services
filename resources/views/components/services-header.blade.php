@@ -6,11 +6,13 @@
 
             </div>
             <div class="col-5 section-title">
-                <p class="text-ind-dark">{{$title}}</p>
+                @if($title == "Home-Security")
+                    <p class="text-ind-dark">Home Security</p>
+                @endif
                 @if($title == "Tv-Services")
                     <p class="text-ind-dark">The Best TV Experience at Your Fingertips</p>
                     <h3 class="text-ind-dark mt-2"><b>Great Offers Await!</b></h3>
-                    <button class="btn btn-dark w-50 mt-2">Get Yours Now!</button>
+                    <button class="btn btn-dark w-50 mt-2">Choose the Best Plan Now!</button>
                 @endif
             </div>
             <div class="col-1">

@@ -30,33 +30,53 @@
                 <div class="col-sm-12 col-md-4 col-lg-4 pb-3">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
-                            <i class="display-4 bx bx-file mb-3 text-ind-blue"></i>
-                            <p><strong>CONNECT WITH US</strong></p>
+                            <i class="display-4 bx bx-location-plus mb-3 text-ind-blue"></i>
+                            <p><strong>ADDRESS</strong></p>
                             <hr>
-                            <p class="mt-5 mb-5">Send us your questions or concerns by starting a new inquiry, and we'll provide the information you need about our product.</p>
+                            <p class="mt-5 mb-5">
+                                13389 E Live Oak Road <br>
+                                Lodi, CA 95240 Accell <br>
+                                Marketing Inc.
+                            </p>
                         </div>
-                        <div class="card-footer">
-                            <a href="{{ url('get-help') }}" class="btn btn-primary d-grid">
-                                <strong>START HERE</strong>
-                            </a>
-                        </div>
+{{--                        <div class="card-footer">--}}
+{{--                            <a href="{{ url('get-help') }}" class="btn btn-primary d-grid">--}}
+{{--                                <strong>START HERE</strong>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 pb-3">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
                             <i class="display-4 bx bx-chat mb-3 text-ind-blue"></i>
-                            <p><strong>LIVE CHAT</strong></p>
+                            <p><strong>CONNECT WITH US</strong></p>
                             <hr>
-                            <p class="mt-5 mb-5">Chat with a member of our in-house team.</p>
+                            <p class="mt-5 mb-5">Please provide your contact information so that we may reach out to you promptly to discuss your concerns.
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <a href="#" id="startChatBtn" class="btn btn-primary d-grid">
-                                <strong>START CHAT</strong>
+                            <a href="{{ url('get-started') }}" id="startChatBtn" class="btn btn-primary d-grid">
+                                <strong>START HERE</strong>
                             </a>
                         </div>
                     </div>
                 </div>
+{{--                <div class="col-sm-12 col-md-4 col-lg-4 pb-3">--}}
+{{--                    <div class="card h-100 shadow-sm">--}}
+{{--                        <div class="card-body text-center">--}}
+{{--                            <i class="display-4 bx bx-chat mb-3 text-ind-blue"></i>--}}
+{{--                            <p><strong>Connect with Us</strong></p>--}}
+{{--                            <hr>--}}
+{{--                            <p class="mt-5 mb-5">Chat with a member of our in-house team.</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-footer">--}}
+{{--                            <a href="#" id="startChatBtn" class="btn btn-primary d-grid">--}}
+{{--                                <strong>START CHAT</strong>--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>
