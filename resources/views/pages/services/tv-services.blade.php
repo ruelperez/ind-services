@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.main', ['title' => $title])
 
 @section('content')
     @include('components.services-header', ['title' => $title, 'backgroundImgUrl' => asset('assets/img/watching-tv.jpg')])
@@ -121,7 +121,7 @@
 {{--            <p>Get moving before it gets worse. The first step in protecting what's important is to peruse our inventory--}}
 {{--                of home security devices now. Your home security products and services are at your fingertips, so you--}}
 {{--                can rest easy.</p>--}}
-{{--            @include('components.get-started-btn')--}}
+            @include('components.get-started-btn')
 {{--        </div>--}}
 {{--    </section>--}}
 @endsection
