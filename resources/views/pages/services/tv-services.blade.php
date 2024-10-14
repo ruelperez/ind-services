@@ -4,7 +4,7 @@
     @include('components.header.tv-service', ['title' => $title, 'backgroundImgUrl' => asset('assets/img/brown.png')])
     <section>
         <div class="container">
-            <p class="mb-4" style="font-size: 25px;"><b>Unlock Exceptional Entertainment at Home!</b></p>
+            <p class="mb-4 mt-4" style="font-size: 25px;"><b>Unlock Exceptional Entertainment at Home!</b></p>
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4">
                     <img class="img-ind" src="{{ asset('assets/img/remote.jpg') }}" alt="">
