@@ -8,7 +8,7 @@
   <title>{{ $title ?? env('APP_NAME') ?? '' }}</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-{{--        @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
   <!-- Favicons -->
   <link href="{{ asset('assets/img/favicon.png') }}?v{{ \Illuminate\Support\Str::random() }}" rel="icon">
   <link href="{{ asset('assets/img/apple-touch-icon.png') }}?v{{ \Illuminate\Support\Str::random() }}" rel="apple-touch-icon">
