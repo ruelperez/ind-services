@@ -6,11 +6,11 @@
         <div class="container">
             <p class="mb-4 mt-4" style="font-size: 25px;"><b>Unlock Exceptional Entertainment at Home!</b></p>
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-5 col-lg-4">
                     <img class="img-ind" src="{{ asset('assets/img/remote.jpg') }}" alt="">
                 </div>
-                <div class="col-sm-12 col-md-8 col-lg-8 mt-2">
-                    <p style="font-size: 20px;" class="mt-2">Looking for a reliable and high-quality entertainment experience for your home? Discover a
+                <div class="col-sm-12 col-md-7 col-lg-8 mt-3 mt-md-0">
+                    <p style="font-size: 20px;">Looking for a reliable and high-quality entertainment experience for your home? Discover a
                         service that offers crystal-clear picture quality, a vast channel selection, and flexible
                         plans designed to fit your needs. Whether you're a sports enthusiast, a movie buff, or love
                         to stay updated with the latest shows, this service has you covered.</p>

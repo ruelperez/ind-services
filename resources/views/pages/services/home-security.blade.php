@@ -4,12 +4,12 @@
     @include('components.header.home-sec', ['title' => $title, 'backgroundImgUrl' => asset('assets/img/home-security.jpg')])
     <section>
         <div class="container">
-            <h2 class="mb-4">Safeguard Your House and What Counts</h2>
+            <h2 class="mb-4 mt-4">Safeguard Your House and What Counts</h2>
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4">
                     <img class="img-ind" src="{{ asset('assets/img/cctv.jpg') }}" alt="">
                 </div>
-                <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="col-sm-12 col-md-8 col-lg-8 mt-2">
                     <p>Nowadays, home security is absolutely essential. You shouldn't put your faith in chance to keep
                         your home safe because it is your haven. Which is why we have a wide variety of cutting-edge
                         security systems designed to make you feel safe at home or on the go. From simple cameras and
