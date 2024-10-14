@@ -40,6 +40,20 @@ h6 {
     transition: all 0.4s;
 }
 
+/* Custom CSS for overlapping effect on large screens */
+@media (min-width: 992px) { /* Start effect from 'lg' breakpoint */
+    .overlap-lg {
+        position: relative; /* Enable z-index to work properly */
+    }
+    .overlap-lg-first {
+        /*margin-left: -100px; !* Adjust the overlap value to your preference *!*/
+        z-index: 1; /* Higher z-index to ensure it appears on top */
+    }
+    .overlap-lg-second {
+        z-index: 2; /* Lower z-index to ensure it appears below */
+    }
+}
+
 .back-to-top i {
     font-size: 28px;
     color: #fff;
@@ -513,17 +527,13 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-    padding: 60px 0;
+    /*padding: 60px 0;*/
     overflow: hidden;
 }
 
 .section-bg,
 .services .icon-box {
     background-color: #f8f9fa;
-}
-
-.section-title {
-    padding-bottom: 40px;
 }
 
 .section-title h2 {
@@ -549,12 +559,25 @@ section {
 
 .section-title p {
     margin: 0;
-    margin: 0;
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     color: #556270;
+}
+
+.section-reward{
+    background-color: #696969;
+    color: white;
+}
+
+.section-reward p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    /*color: #556270;*/
 }
 
 /*--------------------------------------------------------------
@@ -2217,8 +2240,7 @@ section {
     /*background-color: rgba(255, 255, 255, 0.8);*/
     overflow: hidden;
     position: relative;
-    margin-top: 75px !important;
-    height: 550px;
+    /*margin-top: 100px !important;*/
 }
 
 .services-header .overlay {

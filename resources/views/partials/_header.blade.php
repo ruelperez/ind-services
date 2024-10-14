@@ -13,7 +13,7 @@
 {{--            </p> --}}
         </div>
     </div>
-    <div style="padding: 20px 0;">
+    <div style="padding: 20px;">
         <div class="container d-flex align-items-center">
             <a href="{{ url('/') }}" class="me-auto">
                 <img src="{{ asset('assets/img/logo-banner.png?v3') }}" alt="" style="width: 200px; height: auto;">
@@ -23,16 +23,6 @@
                 <ul>
                     <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-        {{--                    <li><a href="{{ url('services/mass-tort/camp-lejune-water-contamination-lawsuit') }}">Camp Lejune Water Contamination Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/firefighting-foam-lawsuit') }}">AFFF Firefighting Foam Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/nec-baby-formula-lawsuit') }}">NEC Baby Formula Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/zantac-lawsuit') }}">Zantac Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/talcum-powder-lawsuit') }}">Talcum Powder Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/paraquat-lawsuit') }}">Paraquat Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/roundup-lawsuit') }}">Roundup Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/cpap-lawsuit') }}">CPAP Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/mesothelioma-lawsuit') }}">Mesothelioma Lawsuit</a></li>--}}
-        {{--                    <li><a href="{{ url('services/mass-tort/rideshare-lawsuit') }}">Rideshare Lawsuit</a></li>--}}
                             <li><a href="{{ url('services/home-security') }}">Home Security</a></li>
                             <li><a href="{{ url('services/tv-services') }}">TV Services</a></li>
                             <li><a href="{{ url('other-services') }}">Other Services</a></li>

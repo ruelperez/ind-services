@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    @include('components.services-header', ['title' => $title, 'backgroundImgUrl' => asset('assets/img/home-security.jpg')])
+    @include('components.header.home-sec', ['title' => $title, 'backgroundImgUrl' => asset('assets/img/home-security.jpg')])
     <section>
         <div class="container">
             <h2 class="mb-4">Safeguard Your House and What Counts</h2>

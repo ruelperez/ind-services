@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-<section style="background-image: url('{{ asset('assets/img/call-center.jpg') }}'); background-size: cover">
-    <div class="container">
+<section style="background-image: url('{{ asset('assets/img/call-center.jpg') }}'); background-size: cover; padding:70px 1px;">
+    <div class="container border">
         <div class="section-title">
             <p class="ind-page-subtitle text-white">Congratulations! Your Exclusive Offer Awaits</p>
         </div>

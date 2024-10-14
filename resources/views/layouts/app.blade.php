@@ -36,7 +36,7 @@
     <script src="{{ asset('admin/plugins/apexchart/apexcharts.min.js') }}"></script>
     <script src="{{ asset('admin/plugins/apexchart/chart-data.js') }}"></script>
     <script src="{{ asset('admin/js/script.js') }}"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
