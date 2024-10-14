@@ -44,11 +44,11 @@
                 <ul style="list-style-type: square;">
                     <li><b>Record and Rewind with the Genie HD DVR</b>  With our advanced Genie HD DVR, you can record up to 5 shows simultaneously and store up to 200 hours of HD programming. Pause, rewind, and replay – never miss a moment!
                     </li>
-                    <li><b>Crystal Clear Picture Quality</b> <br> Experience your favorite shows and movies in stunning HD. With DirecTV, you won’t miss a single detail.
+                    <li><b>Crystal Clear Picture Quality</b> <br> Experience your favorite shows and movies in stunning HD. You won’t miss a single detail.
                     </li>
-                    <li><b>Watch Anytime, Anywhere</b> <br>  Access your favorite shows on-the-go! Stream on your devices using the DirecTV app – perfect for busy lifestyles.
+                    <li><b>Watch Anytime, Anywhere</b> <br>  Access your favorite shows on-the-go! Stream on your devices using the TV app – perfect for busy lifestyles.
                     </li>
-                    <li><b>Sports Coverage Like No Other</b> <br>  Get ready for game day! DirecTV offers NFL Sunday Ticket, giving you access to every out-of-market NFL game, plus exclusive sports channels dedicated to all major sports leagues.
+                    <li><b>Sports Coverage Like No Other</b> <br>  Get ready for game day! We offers NFL Sunday Ticket, giving you access to every out-of-market NFL game, plus exclusive sports channels dedicated to all major sports leagues.
                     </li>
                     <li><b>Reliable Customer Support</b> <br>  Our award-winning customer support team is available 24/7 to assist you with any questions or issues. We prioritize your satisfaction and are here to help!
                     </li>
