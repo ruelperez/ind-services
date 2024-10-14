@@ -1,6 +1,6 @@
 <div class="section-reward py-4 text-center text-lg-start" style="margin-top: 40px !important;">
     <div class="container">
-        <p>Get a $140 Rewards Card</p>
+        <p>Get a $140 Rewards Card!</p>
     </div>
 </div>
 <section class="services-header " style="background-image: url({{ $backgroundImgUrl }}); background-size: cover; background-position: center; position: relative">
