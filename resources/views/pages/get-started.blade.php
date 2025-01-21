@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                             <div class="form-group mb-3">
-                                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                                <div class="g-recaptcha" data-sitekey="6LcL_r4qAAAAALysSlL4LZKOF5wg9jPT3kSMgaH6"></div>
                             </div>
                             <div class="form-group mb-3">
                                 <div class="d-grid">
