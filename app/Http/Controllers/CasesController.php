@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\CaseRecord;
 use Illuminate\Support\Facades\Validator;
-
+use ReCaptcha\ReCaptcha;
 class CasesController extends Controller
 {
     public function add(Request $request)
