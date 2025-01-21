@@ -96,6 +96,9 @@
                                 </div>
                             </div>
                             <div class="form-group mb-3">
+                                <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+                            </div>
+                            <div class="form-group mb-3">
                                 <div class="d-grid">
                                     @csrf
                                     <button type="submit" class="btn bg-ind-blue btn-lg" style="border-radius: 0px">

@@ -26,6 +26,7 @@ class CasesController extends Controller
             'terms1' => 'required',
             'terms2' => 'required',
             'terms3' => 'required',
+            'g-recaptcha-response' => 'required|recaptcha',
         ]);
 
         if ($validator->fails()) {
