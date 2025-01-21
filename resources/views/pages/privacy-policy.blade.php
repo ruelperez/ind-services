@@ -11,7 +11,7 @@
 </section>
 
 <section>
-   <div class="container">
+   <div class="container mt-4 mb-4">
         This <b>Privacy Policy</b> describes Our policies and procedures on the collection, use and disclosure of Your information when You respond to our advertisements and tells You about Your privacy rights and how the law protects You. We use Your Personal Data to contact and support you, as well as to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
    </div>
    <div class="container mt-5">
@@ -21,7 +21,7 @@
         <h5 class="font-weight-bold">Definitions</h5>
         <p>For the purposes of this Privacy Policy:</p>
         <ul>
-            <li>Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Indipendent Teleoutsource Telemarketing Services.</li>
+            <li>Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Independent Services.</li>
             <li>Device means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
             <li>Personal Data is any information that relates to an identified or identifiable individual.</li>
             <li>Service refers to the advertisement, website, or application.</li>
