@@ -6,38 +6,6 @@
             <!-- on small screens remove display-4 -->
             <h3 class="mb-4 mt-2 font-weight-bolder text-left"><span class="text-white"><strong>Harness the Power of 24/7 Answering Service for Your Success</strong></span></h3>
         </div>
-        <div class="col-md-6 mt-3">
-            <p class="text-white text-left"> <i class="ri-phone-fill"></i> Contact Us</p>
-            <div class="card">
-                <div class="card-body">
-                    <form id="contactForm">
-                        @csrf
-                        <div class="form-group mb-3">
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" name="name" class="form-control" placeholder="Name">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group mb-3">
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" name="phone" class="form-control" placeholder="Phone Number">
-                                </div>
-                                <div class="col">
-                                    <input type="email" name="email" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group mb-3">
-                            <label class="mb-1">Message:</label>
-                            <textarea id="summernote" name="message" class="form-control"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
       </div>
     </div>
   </div>

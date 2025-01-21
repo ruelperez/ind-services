@@ -71,6 +71,24 @@
                             </div>
                             <div class="form-group mb-3">
                                 <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="terms1" value="1">
+                                    <label class="form-check-label text-small" for="flexCheckDefault" style="text-align: justify; color: #00000 !important">
+                                        I give consent to Independent Services
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="terms2" value="1">
+                                    <label class="form-check-label text-small" for="flexCheckDefault" style="text-align: justify; color: #00000 !important">
+                                        I give consent to American Remodeling Enterprises INC
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="terms3" value="1">
+                                    <label class="form-check-label text-small" for="flexCheckDefault" style="text-align: justify; color: #00000 !important">
+                                        I give consent to Modern Exteriors LLC
+                                    </label>
+                                </div>
+                                <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="terms" value="1">
                                     <label class="form-check-label text-small" for="flexCheckDefault" style="text-align: justify; color: #00000 !important">
                                         By clicking the box, I provide my electronic signature hereby agreeing to this website's <a href="{{ url('privacy-policy') }}">PRIVACY POLICY</a>, <a href="{{ url('tcpa-consent') }}">TCPA Consent</a> & <a href="{{ url('privacy-disclaimer') }}">Privacy Disclaimer</a> and expressly consent to receive marketing and telemarketing contact, including calls to my cellular phone, via automatic telephone dialing system, emails, and/or text messages from Independent Services regarding products/services indicated in this website. I will receive contact even if I previosuly registered on a state or federal do not contact list. I understand that my consent to receive communications in this manner is not required as a condition of purchasing any goods or services. My telephone company may impose charges for these contacts.

@@ -22,7 +22,10 @@ class CasesController extends Controller
             'xxTrustedFormToken' => 'required',
             'xxTrustedFormCertUrl' => 'required',
             'xxTrustedFormPingUrl' => 'required',
-            'terms' => 'required'
+            'terms' => 'required',
+            'terms1' => 'required',
+            'terms2' => 'required',
+            'terms3' => 'required',
         ]);
 
         if ($validator->fails()) {
