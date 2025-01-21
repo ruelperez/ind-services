@@ -11,7 +11,7 @@
 </section>
 
 <section>
-    <div class="container">
+    <div class="container mt-4 mb-4">
         <h4 class="font-weight-bold">TCPA Consent</h4>
         <p class="mt-4 text-justify">
             Regardless of any past decisions to accept or decline telemarketing calls or SMS messages from our representatives, agents, or affiliates, you explicitly agree to receive communication from IND Legal Services, our agents, representatives, affiliates, or those acting on our behalf. This consent extends to all matters concerning your lawsuit claim, through any provided telephone number, physical or electronic address, or any reachable location. You consent to communication via various methods, including SMS messages, calls with prerecorded or artificial voices, and automated calls and messages using auto telephone dialing or texting systems.
@@ -22,5 +22,4 @@
     </div>
 </section>
 
-@include('partials._faq')
 @endsection

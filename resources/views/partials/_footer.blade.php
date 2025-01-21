@@ -6,7 +6,7 @@
             <!-- on small screens remove display-4 -->
             <h3 class="mb-4 mt-2 font-weight-bolder text-left"><span class="text-white"><strong>Harness the Power of 24/7 Answering Service for Your Success</strong></span></h3>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-3">
             <p class="text-white text-left"> <i class="ri-phone-fill"></i> Contact Us</p>
             <div class="card">
                 <div class="card-body">
