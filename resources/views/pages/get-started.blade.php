@@ -21,9 +21,9 @@
                                 <label class="mb-2">Type of Product / Service</label>
                                 <select name="type" class="form-control">
                                     <option value="">-- select --</option>
+                                    <option value="Roofing & Window">Roofing & Window</option>
                                     <option value="Home Security">Home Security</option>
                                     <option value="TV Services">TV Services</option>
-                                    <option value="Roofing & Window">Roofing & Window</option>
 {{--                                    <option value="Camp Lejune Water Contamination">Camp Lejune Water Contamination</option>--}}
 {{--                                    <option value="Firefighting Foam">Firefighting Foam</option>--}}
 {{--                                    <option value="NEC Baby Formula">NEC Baby Formula</option>--}}
