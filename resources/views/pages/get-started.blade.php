@@ -21,6 +21,7 @@
                                 <label class="mb-2">Type of Product / Service</label>
                                 <select name="type" class="form-control">
                                     <option value="">-- select --</option>
+                                    <option value="Dept Settlement">Dept Settlement</option>
                                     <option value="Roofing & Window">Roofing & Window</option>
                                     <option value="Home Security">Home Security</option>
                                     <option value="TV Services">TV Services</option>

@@ -23,6 +23,7 @@
                 <ul>
                     <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
+                            <li><a href="{{ url('services/debt-settlement') }}">Debt Settlement</a></li>
                             <li><a href="{{ url('services/roofing-&-window') }}">Roofing & Window Services</a></li>
                             <li><a href="{{ url('services/home-security') }}">Home Security</a></li>
                             <li><a href="{{ url('services/tv-services') }}">TV Services</a></li>

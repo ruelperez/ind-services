@@ -21,11 +21,11 @@
             {{--                <img class="img-fluid" alt="Responsive Image" src="{{asset('assets/img/dtv_dtv.png')}}">--}}
             {{--            </div>--}}
             <div class="order-2 col-xl-6 section-title mt-4 text-center text-lg-start col-lg-6 order-lg-1  overlap-lg overlap-lg-second">
-                <p class="text-ind-dark mt-sm-4">Strong Roofs, Stunning Windows—Your Home Deserves the Best!</p>
-                <p class="text-ind-dark mt-4" style="font-size: 25px;">Protect Your Home, Enhance Its Value—Schedule Your Free Inspection Today!</p>
+                <p class="text-ind-dark mt-sm-4">Need a Loan? Get Approved in Minutes – No Stress, No Hidden Fees!</p>
+                <p class="text-ind-dark mt-4" style="font-size: 25px;">Easy, Fast, and Hassle-Free Loans – No Hidden Fees, No Long Waits!</p>
                 <div class="row mt-5 mt-sm-5 justify-content-center justify-content-lg-start">
                     <div class="col-sm-8 col-lg-9 col-xl-7 col-xxl-6">
-                        <button onclick="window.location.href='{{ url('/get-started') }}'" class="btn btn-dark w-100"><i class="bx bi-box-arrow-right me-2"></i>CONTACT US FOR SOLUTIONS</button>
+                        <button onclick="window.location.href='{{ url('/get-started') }}'" class="btn btn-dark w-100"><i class="bx bi-box-arrow-right me-2"></i>CONTACT US NOW</button>
                     </div>
                 </div>
             </div>
