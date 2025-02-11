@@ -98,7 +98,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="terms3" value="1">
                                     <label class="form-check-label text-small" for="flexCheckDefault" style="color: #00000 !important">
-                                        I give consent to GoSteadyWise LLC DBA SteadyWise
+                                        I give consent to GoSteadyWise LLC
                                     </label>
                                 </div>
                             </div>
