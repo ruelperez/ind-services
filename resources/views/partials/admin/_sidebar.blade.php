@@ -14,12 +14,12 @@
                   <span> CRM</span>
                 </a>
               </li>
-               <li id="CasesPageItem">
-                <a href="http://webmail.ittslegalconsultation.com/" target="_blank">
-                  <img src="{{ asset('admin/img/icons/mail.svg') }}" alt="img">
-                  <span> </span>
+            <li id="DepoCasesPageItem">
+                <a href="{{ url('/dashboard/admin/depo-cases') }}">
+                    <img src="{{ asset('admin/img/icons/transcation.svg') }}" alt="img">
+                    <span> Depo Cases</span>
                 </a>
-              </li>
+            </li>
             </ul>
           </div>
         </div>

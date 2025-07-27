@@ -10,7 +10,7 @@
     </div>
   </div>
   </section><!-- End Hero -->
-
+@if(isset($camp_name)) {{$camp_name}}@endif
 <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
@@ -19,7 +19,7 @@
 
           <div class="col-lg-4 col-md-7">
             <div class="footer-info">
-              <h3>ITTS Services</h3>
+              <h3>IND Legal Services</h3>
               <p>
                 {{-- 1475 Buford Dr. <br>
                 Suite # 403-747 <br>
@@ -44,6 +44,8 @@
               <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/') }}">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/about') }}">About Us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{{ url('contact') }}">Contact Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="{{ url('/terms-&-condition') }}">Terms Of Use</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="{{ url('legal-privacy-policy') }}">Privacy</a></li>
             </ul>
           </div>
 
@@ -61,7 +63,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright {{ \Carbon\Carbon::now()->format('Y') }} <strong><span>ITTS Services</span></strong>. All Rights Reserved.
+        &copy; Copyright {{ \Carbon\Carbon::now()->format('Y') }} <strong><span>IND Legal Services</span></strong>. All Rights Reserved.
       </div>
     </div>
   </footer>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CaseRecord;
+use App\Models\DepoRecord;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Validator;
@@ -27,6 +28,24 @@ class CertificateController extends Controller
             ->post($request->xx_tf_cert_url);
 
         return response($response->json());
+    }
+
+    public function updateDepoStatus($status, Request $request){
+        $validator = Validator::make($request->all(), [
+            'share_url' => 'required',
+            'id' => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            return response(['errors' => $validator->errors()], 401);
+        }
+
+        $case = DepoRecord::find($request->id);
+        $case->update([
+            'share_url' => $request->share_url
+        ]);
+
+        return response(['message' => 'Status updated!'], 201);
     }
 
     public function updateStatus($status, Request $request)

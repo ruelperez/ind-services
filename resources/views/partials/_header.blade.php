@@ -21,7 +21,12 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>Mass Tort</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('services/mass-tort/depo-provera-lawsuit') }}">Depo-Provera Lawsuit</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Other Services</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('services/roofing-&-window') }}">Try Our Trip</a></li>
                             <li><a href="{{ url('services/debt-settlement') }}">Debt Settlement</a></li>
@@ -33,7 +38,7 @@
                     </li>
                     <li><a href="{{ asset('/about') }}">About Us</a></li>
                     <li><a href="{{ url('/contact') }}">Contact Us</a></li>
-                    <li><a href="{{ url('/get-started') }}" class="getstarted">Get Started</a></li>
+{{--                    <li><a href="{{ url('/get-started') }}" class="getstarted">Get Started</a></li>--}}
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

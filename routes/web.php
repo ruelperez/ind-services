@@ -26,6 +26,12 @@ Route::get('services/{page}', [PageController::class, 'services']);
 //    Route::get('{page}', [PageController::class, 'massTort']);
 //});
 
+Route::prefix('services')->group(function () {
+    Route::prefix('mass-tort')->group(function () {
+        Route::get('{page}', [PageController::class, 'massTort']);
+    });
+});
+
 Route::prefix('func')->group(function () {
     Route::prefix('auth')->controller(AuthController::class)->group(function () {
         Route::post('login', 'login');
@@ -43,10 +49,15 @@ Route::prefix('func')->group(function () {
     Route::prefix('certificate')->controller(CertificateController::class)->group(function () {
         Route::post('claim', 'claim');
         Route::post('/update-status/{status}', 'updateStatus');
+        Route::post('/update-depo-status/{status}', 'updateDepoStatus');
     });
 
     Route::prefix('export')->controller(ExportController::class)->group(function () {
         Route::get('cases', 'cases');
+    });
+
+    Route::prefix('depo')->controller(CasesController::class)->group(function () {
+        Route::post('create', 'create');
     });
 });
 

@@ -1,6 +1,6 @@
 <section class="services-header" style="background-image: url({{ $backgroundImgUrl }}); background-size: cover; background-position: center; position: relative">
     <div class="overlay"></div>
-    <div class="container" style="position: relative; z-index: 2; margin-top: 40px">
+    <div class="container" style="position: relative; z-index: 2;">
         <div class="row border">
             <div class="order-2 col-md-8 col-lg-6 col-xl-5 section-title border">
                 @if($title == "Home-Security")
@@ -14,10 +14,17 @@
                     </div>
                 @endif
             </div>
-            <div class="order-1 border">
-                <img class="img-fluid" alt="Responsive Image" src="{{asset('assets/img/dtv_pic.png')}}">
-            </div>
+            @if(!$title)
+                <div class="order-1 border">
+                    <img class="img-fluid" alt="Responsive Image" src="{{asset('assets/img/dtv_pic.png')}}">
+                </div>
+            @endif
         </div>
+        @if($title == "Depo-Provera Lawsuit")
+            <div class="section-title w-100 mt-5 mb-5 text-center" style="height: 250px;">
+                <p class="text-ind-dark" style="margin-top: 150px;">{{ $title }}</p>
+            </div>
+        @endif
 {{--        <div class="section-title w-100 mt-5 mb-5">--}}
 {{--            <p class="text-ind-dark">{{ $title }} The Best TV Experience at Your Fingertips</p>--}}
 {{--        </div>--}}
