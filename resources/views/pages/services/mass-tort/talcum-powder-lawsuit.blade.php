@@ -1,84 +1,88 @@
 @extends('layouts.main')
 
 @section('content')
-    @include('components.services-header', ['title' => $title, 'backgroundImgUrl' => asset('assets/img/mine-talc.jpg')])
-    <section>
+    @include('components.mass-tort-header', [
+        'title' => 'Talcum Powder Cancer Lawsuit',
+        'backgroundImgUrl' => asset('assets/img/mine-talc.jpg')
+    ])
+
+    <section class="py-5">
         <div class="container">
-            <div id="talcum-powder">
-                <p>If you have used talcum powder and subsequently developed ovarian cancer, you may have the
-                    opportunity to seek compensation from the manufacturer. Having the guidance of an experienced talcum
-                    powder attorney can make a significant difference in your pursuit of justice and securing
-                    appropriate compensation.</p>
-                <p>You have the right to hold companies accountable for their negligent actions. Talc, a mineral
-                    commonly found in baby powder, may have been contaminated with asbestos, leading to severe health
-                    issues for long-term users of the product. Johnson & Johnson, a prominent manufacturer of talc-based
-                    powders, was aware of the risks associated with their products but failed to provide adequate
-                    warnings to consumers. Consequently, women across the country are grappling with ovarian cancer,
-                    mesothelioma, and other illnesses.</p>
-                <div class="row mt-5">
-                    <div class="col-sm-12 col-md-8 col-lg-8">
-                        <h4 class="ind-page-subtitle">
-                            What is Talc?
-                        </h4>
-                        <p>Talc is a naturally occurring mineral found in various regions globally and is commonly used
-                            in a wide range of products. Powdered talc, in particular, is renowned for its
-                            moisture-absorbing properties, helping to keep the skin dry and prevent the occurrence of
-                            rashes.</p>
-                        <p>Baby powder, a popular product, often contains talc in its powdered form. Talc is frequently
-                            employed in hygiene and skincare items due to its ability to maintain the skin's dryness and
-                            smoothness. Additionally, it can provide relief from rashes and help maintain the freshness
-                            of a woman's genital area.</p>
-                        <p>Regrettably, talc has the potential to be contaminated with asbestos, a known carcinogen.
-                            Researchers have detected trace amounts of this cancer-causing substance in numerous talcum
-                            powders and related products. They believe that prolonged exposure, either through
-                            inhalation of airborne particles or application of contaminated talc to the genital area,
-                            can eventually lead to cancer.</p>
-                        <p>Talcum powder is classified as a cosmetic product, which means it falls outside the
-                            regulatory purview of the U.S. Food and Drug Administration (FDA). Consequently, Johnson &
-                            Johnson and other manufacturers were able to produce and sell talc-based products with
-                            minimal oversight. Stricter requirements for providing warning labels to inform consumers
-                            about potential risks and obtaining approval for product ingredients did not apply. Despite
-                            the dangers associated with asbestos exposure, Johnson & Johnson continued to utilize talc
-                            in their baby powder.</p>
-                        <p>Please note that regulations and oversight may vary by country or jurisdiction.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <img class="img-ind" src="{{ asset('assets/img/powder.jpg') }}" alt="">
-                    </div>
-                </div>
-                <h5 class="mt-5 ind-page-subtitle">Does Talcum Powder Cause Cancer?</h5>
-                <p>Extensive research has revealed a heightened risk of ovarian cancer among women who have used
-                    talc-based products for prolonged periods. As early as 1971, studies investigating the potential
-                    connection between talcum powder and cancer discovered a 30% increased risk of developing ovarian
-                    cancer. While further research is still needed, it is believed that contaminated particles can enter
-                    a woman's body through the vagina, leading to inflammation in the ovaries, uterus, and fallopian
-                    tubes. This chronic inflammation ultimately contributes to the development of cancer.</p>
-                <p>In addition to ovarian cancer, Johnson & Johnson's baby powder has also been the subject of
-                    investigation regarding its potential association with respiratory issues, such as mesothelioma.
-                    Talc particles can become airborne during the application process, and continuous inhalation of
-                    asbestos-containing particles over an extended period can irritate the lungs, potentially leading to
-                    the formation of mesothelioma. Other lung-related medical conditions may also arise.</p>
-                <p>Further studies have indicated an increased risk of developing various other types of cancer,
-                    including:</p>
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="row flex-column-reverse flex-md-row">
+                {{-- Content --}}
+                <div class="col-md-7 mb-4 mb-md-0 order-2 order-md-1">
+                    <div class="pe-md-4">
+                        <div class="mb-3 text-center">
+                            <img class="img-ind mx-auto d-block" src="{{ asset('assets/img/powder.jpg') }}" alt="Talcum Powder">
+                        </div>
+                        <p>
+                            If you have used talcum powder and subsequently developed ovarian cancer or mesothelioma, you may be entitled to financial compensation. Our legal partners can assist you in evaluating your eligibility and pursuing justice.
+                        </p>
+                        <p>
+                            Talc, a mineral found in baby powder and other hygiene products, may be contaminated with asbestos—a known carcinogen. Companies like Johnson & Johnson continued selling talc-based products despite being aware of these dangers, failing to warn consumers.
+                        </p>
+
+                        <h4 class="mt-5 ind-page-subtitle">What is Talc?</h4>
+                        <p>Talc is a naturally occurring mineral known for its moisture-absorbing and skin-smoothing properties. It's widely used in baby powder and other personal care items.</p>
+                        <p>Unfortunately, talc may be contaminated with asbestos during mining. Prolonged use—especially in the genital area or through inhalation—can increase the risk of developing cancer.</p>
+                        <p>Since talcum powder is classified as a cosmetic product, it bypasses stricter FDA oversight, allowing manufacturers to avoid proper warnings or regulation for years.</p>
+
+                        <h4 class="mt-5 ind-page-subtitle">Does Talcum Powder Cause Cancer?</h4>
+                        <p>Research has shown a significant link between long-term talc use and ovarian cancer. Contaminated particles can enter the body and trigger chronic inflammation, which may lead to cancer.</p>
+                        <p>Additionally, frequent inhalation of talc particles has been associated with mesothelioma and other respiratory issues.</p>
+
+                        <h4 class="mt-5 ind-page-subtitle">Other Cancers Under Investigation</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Fallopian tube cancer</li>
+                                    <li class="list-group-item">Uterine cancer</li>
+                                    <li class="list-group-item">Vaginal/vulvar cancer</li>
+                                    <li class="list-group-item">Cervical cancer</li>
+                                    <li class="list-group-item">Endometrial cancer</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h4 class="mt-5 ind-page-subtitle">Why Take Legal Action Now?</h4>
                         <ul class="list-group">
-                            <li class="list-group-item">Fallopian tube cancer</li>
-                            <li class="list-group-item">Uterine cancer</li>
-                            <li class="list-group-item">Vaginal/vulvar cancer</li>
-                            <li class="list-group-item">Cervical cancer</li>
-                            <li class="list-group-item">Endometrial cancer</li>
+                            <li class="list-group-item">Thousands of cases have already been filed</li>
+                            <li class="list-group-item">Major verdicts and settlements have been awarded</li>
+                            <li class="list-group-item">You may lose eligibility if you delay</li>
+                            <li class="list-group-item">Legal teams work on contingency – no fees unless you win</li>
                         </ul>
+
+                        <p class="mt-4">
+                            Don’t wait. If you or a loved one has been diagnosed with cancer after using talcum powder, legal help is available. Our network can connect you with experienced attorneys to help guide your case.
+                        </p>
+
+                        <p class="lead">
+                            <strong>Get the help you deserve. Reach out now for a free case review.</strong>
+                        </p>
                     </div>
                 </div>
-                <p class="mt-3">If you have regularly used talcum powder for a long time and have been diagnosed with
-                    cancer, it is recommended to seek guidance to determine if you are eligible for compensation.
-                    Professionals can help you find an appropriate attorney who will manage your lawsuit and assist you
-                    in pursuing potential recovery. Taking the required legal actions is essential for seeking justice
-                    and exploring compensation options for the harm you have endured. Reach out today to discuss your
-                    situation and explore the legal avenues available to you.</p>
+
+                {{-- Form --}}
+                @include('components.mass-tort-form', ['prod' => 'Talcum'])
             </div>
-            @include('components.get-started-btn')
         </div>
+
+        @include('components.sign-up-btn')
     </section>
 @endsection
+
+@push('css')
+    <style>
+        .fixed-bottom-btn-mobile {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1050;
+        }
+    </style>
+@endpush
+
+@push('js')
+    <script src="{{ asset('js/get-help.js') }}?v{{ \Illuminate\Support\Str::random() }}"></script>
+@endpush

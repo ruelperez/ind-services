@@ -3,7 +3,7 @@
     ])
 
 @section('content')
-    @include('components.services-header', [
+    @include('components.mass-tort-header', [
         'title' => 'Depo-Provera Lawsuit',
         'backgroundImgUrl' => asset('assets/img/injection.jpg')
     ])

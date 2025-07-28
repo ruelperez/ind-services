@@ -1,19 +1,74 @@
 @extends('layouts.main')
 
 @section('content')
-@include('components.services-header', ['title' => $title, 'backgroundImgUrl' => asset('assets/img/pfas-lawsuit.jpg')])
-<section>
-    <div class="container">
-        <h5 class="ind-page-subtitle mt-5">What are PFAS?</h5>
-        <p>Since the 1940s, per- and polyfluoroalkyl substances (PFAS), also referred to as "forever chemicals," have been extensively utilized in a variety of industrial and consumer products. Food packaging, waterproof clothes, firefighting foams, and non-stick cookware are just a few products that include perfluoroalkyl substances (PFAS) because of their desirable water- and stain-resistant, non-stick qualities. But because of how long-lasting they are, they also collect in the human body and survive in the environment, which raises questions about possible health hazards.</p>
-        <h5 class="ind-page-subtitle mt-5">Why Are PFAS Harmful?</h5>
-        <p>Numerous major health problems, such as cancer, liver damage, thyroid illness, immune system diseases, and developmental problems in children, have been related to per- and polyfluoroalkyl substances (PFAS). These substances can pollute soil, air, and water supplies due to their slow rate of breakdown, which presents long-term environmental and public health threats. Due to reports of PFAS contamination in drinking water from communities around the nation, there is now more scrutiny on the release and use of these dangerous compounds, and legal action is being taken against individuals found guilty.</p>
-        <h5 class="ind-page-subtitle mt-5">What Is a PFAS Lawsuit?</h5>
-        <p>PFAS lawsuits are legal actions brought against manufacturers, companies, or other entities that produce or use PFAS. These lawsuits typically seek to hold these parties accountable for the health and environmental damage caused by PFAS contamination.</p>
-        <p>Lawsuits against businesses that produce or use per- and polyfluoroalkyl substances (PFAS) are increasing in number as public knowledge of the hazards these chemicals represent develops. Companies have already agreed to pay large sums to mitigate the harm caused by PFAS pollution in a number of well-known settlements. The environment of PFAS lawsuits is also being shaped by regulatory agencies such as the Environmental Protection Agency (EPA), which are enforcing stricter standards for PFAS use and exposure.</p>
-        <h5 class="ind-page-subtitle mt-5">Why It Matters</h5>
-        <p>PFAS lawsuits aim to hold companies responsible for the harm they have caused to people and the environment, not merely about seeking financial assistance. Stronger rules and greater corporate accountability are also sparked by these lawsuits, with the goal of halting additional harm caused by these hazardous and persistent substances.</p>
-        <p>It's critical to comprehend your legal rights and alternatives if you think you may have been impacted by PFAS exposure. To get the compensation you are entitled to and to support the larger effort to address and lessen the effects of PFAS on our health and environment, legal action could be required.</p>
-    </div>
-</section>
+    @include('components.mass-tort-header', [
+        'title' => 'PFAS Lawsuit',
+        'backgroundImgUrl' => asset('assets/img/pfas-lawsuit.jpg')
+    ])
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row flex-column-reverse flex-md-row">
+                {{-- Content --}}
+                <div class="col-md-7 mb-4 mb-md-0 order-2 order-md-1">
+                    <div class="pe-md-4">
+                        <h4 class="ind-page-subtitle">What Are PFAS?</h4>
+                        <p>Since the 1940s, per- and polyfluoroalkyl substances (PFAS), also referred to as "forever chemicals," have been extensively used in industrial and consumer products. These include food packaging, waterproof clothing, firefighting foams, and non-stick cookware, prized for their water-, oil-, and stain-resistant properties. However, their persistence means they accumulate in the environment and human body, raising serious health concerns.</p>
+
+                        <h4 class="mt-5 ind-page-subtitle">Why Are PFAS Harmful?</h4>
+                        <p>PFAS have been linked to serious health problems including cancer, liver damage, thyroid disease, immune system dysfunction, and developmental issues in children. Because these chemicals do not break down easily, they contaminate soil, water, and air—creating long-term environmental and public health risks. Drinking water contamination across the U.S. has triggered investigations and lawsuits, demanding accountability from responsible companies.</p>
+
+                        <h4 class="mt-5 ind-page-subtitle">Common Health Conditions Linked to PFAS Exposure</h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item">Kidney cancer</li>
+                            <li class="list-group-item">Testicular cancer</li>
+                            <li class="list-group-item">Liver damage</li>
+                            <li class="list-group-item">Thyroid disease</li>
+                            <li class="list-group-item">Ulcerative colitis</li>
+                            <li class="list-group-item">Developmental effects in children</li>
+                        </ul>
+
+                        <h4 class="mt-5 ind-page-subtitle">What Is a PFAS Lawsuit?</h4>
+                        <p>PFAS lawsuits are filed against manufacturers and users of PFAS-based products, aiming to hold them accountable for the environmental and health damage caused. These cases have already resulted in large settlements and are helping to drive regulatory changes. The EPA and other agencies are now enforcing stricter standards to address PFAS exposure.</p>
+
+                        <h4 class="mt-5 ind-page-subtitle">Why Act Now?</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Widespread litigation is already underway in federal courts</li>
+                            <li class="list-group-item">Regulations are tightening, and more settlements are likely</li>
+                            <li class="list-group-item">You may forfeit your legal rights if you wait too long</li>
+                            <li class="list-group-item">There’s no upfront cost – lawyers work on contingency</li>
+                        </ul>
+
+                        <p class="mt-4">
+                            If you or a loved one has been affected by PFAS exposure, now is the time to act. Legal support is available to guide you through the process and help pursue the compensation you deserve.
+                        </p>
+
+                        <p class="lead">
+                            <strong>Take control of your future. Reach out today for a free case evaluation.</strong>
+                        </p>
+                    </div>
+                </div>
+
+                {{-- Form --}}
+                @include('components.mass-tort-form', ['prod' => 'PFAS'])
+            </div>
+        </div>
+        @include('components.sign-up-btn')
+    </section>
 @endsection
+
+@push('css')
+    <style>
+        .fixed-bottom-btn-mobile {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1050;
+        }
+    </style>
+@endpush
+
+@push('js')
+    <script src="{{ asset('js/get-help.js') }}?v{{ \Illuminate\Support\Str::random() }}"></script>
+@endpush

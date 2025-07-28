@@ -26,6 +26,8 @@
                             <li><a href="{{ url('services/mass-tort/depo-provera-lawsuit') }}">Depo-Provera Lawsuit</a></li>
                             <li><a href="{{ url('services/mass-tort/firefighting-foam-lawsuit') }}">AFFF Firefighting Foam Lawsuit</a></li>
                             <li><a href="{{ url('services/mass-tort/roundup-lawsuit') }}">Roundup Lawsuit</a></li>
+                            <li><a href="{{ url('services/mass-tort/talcum-powder-lawsuit') }}">Talcum Powder Lawsuit</a></li>
+                            <li><a href="{{ url('services/mass-tort/pfas-lawsuit') }}">PFAS Lawsuit</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Other Services</span> <i class="bi bi-chevron-down"></i></a>
