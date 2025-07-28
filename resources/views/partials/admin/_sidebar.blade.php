@@ -20,7 +20,7 @@
                         <span> Depo Cases</span>
                     </a>
                 </li>
-              <li id="CasesPageItem">
+              <li id="OtherServicesPageItem">
                 <a href="{{ url('/dashboard/admin/other-services') }}">
                   <img src="{{ asset('admin/img/icons/transcation.svg') }}" alt="img">
                   <span>Other Services</span>

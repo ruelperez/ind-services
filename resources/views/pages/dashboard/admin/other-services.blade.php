@@ -180,7 +180,7 @@
 
 @push('js')
     <script>
-        $('#CasesPageItem').addClass('active');
+        $('#OtherServicesPageItem').addClass('active');
     </script>
     <script src="{{ asset('js/cases.js') }}"></script>
 @endpush
