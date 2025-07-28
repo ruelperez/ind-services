@@ -1,58 +1,215 @@
 @extends('layouts.main')
 
 @section('content')
-    @include('components.services-header', ['title' => 'AFFF Firefighting Foam Lawsuit', 'backgroundImgUrl' => asset('assets/img/fire-foam.jpg')])
-    <section>
+    @include('components.services-header', [
+        'title' => 'AFFF Firefighting Foam Lawsuit',
+        'backgroundImgUrl' => asset('assets/img/fire-foam.jpg')
+    ])
+
+    <section class="py-5">
         <div class="container">
-            <div id="ff-lawsuit">
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <img class="img-ind mb-3" src="{{ asset('assets/img/firefighter.jpg') }}" alt="">
-                    </div>
-                    <div class="col-sm-12 col-md-8 col-lg-8">
-                        <p>If you developed cancer due to exposure to the hazardous chemicals in firefighting foam, it
-                            is important to seek immediate assistance to understand your legal options. You might have
-                            the right to receive financial compensation from the manufacturer for the harm you have
-                            endured. We can assess your situation and connect you with a lawyer who can represent you.
-                            It is crucial to pursue justice for your distressing diagnosis and the resulting financial
-                            burdens.</p>
-                        <p>We possess the expertise and resources to link you with a skilled and dedicated attorney who
-                            can handle the legal aspects of your case while you focus on your treatment. You won't have
-                            to face this traumatic period alone; a caring legal team will be by your side, offering the
-                            necessary support and guidance.</p>
-                        <p>Firefighting foam has been effective in combating fires, but unfortunately, it contains
-                            harmful substances that have been linked to an increased risk of certain cancers, such as
-                            pancreatic, kidney, and testicular cancer. The manufacturing companies were aware of these
-                            dangers but neglected to inform users about the potential adverse effects. You have the
-                            opportunity to file a lawsuit against them and seek rightful and comprehensive
-                            compensation.</p>
-                        <h4 class="mt-5 ind-page-subtitle">What Is Firefighting Foam?</h4>
-                        <p>AFFF, also known as aqueous film-forming foam, is a type of foam primarily utilized by
-                            firefighters to suppress fires. It was introduced in the 1960s and has gained significant
-                            popularity in industries dealing with highly combustible substances. This foam operates by
-                            forming a layer of aqueous film that effectively covers and puts out fires caused by
-                            petroleum and jet fuel.</p>
-                        <p>The most common places people use AFF are:</p>
+            <div class="row flex-column-reverse flex-md-row">
+                {{-- Content --}}
+                <div class="col-md-7 mb-4 mb-md-0 order-2 order-md-1">
+                    <div class="pe-md-4">
+                        <div class="mb-3 text-center">
+                            <img class="img-ind mx-auto d-block" src="{{ asset('assets/img/firefighter_img.jpg') }}" alt="Firefighter">
+                        </div>
+                        <p>
+                            If you or a loved one has developed cancer or a serious illness after exposure to firefighting foam (AFFF), you may be entitled to financial compensation. Thousands of lawsuits have already been filed, and more are being added every month. Legal experts expect that a major settlement may be reached soon, so now is the time to act.
+                        </p>
+                        <p>
+                            AFFF has been widely used by firefighters, military personnel, airports, and chemical facilities to suppress flammable liquid fires. Unfortunately, this foam contains toxic chemicals called PFAS—also known as "forever chemicals"—which have been linked to multiple forms of cancer and other health risks.
+                        </p>
+                        <p>
+                            Our team can connect you with experienced attorneys who understand the complexity of these claims. You won’t have to face this process alone. A legal team can guide you every step of the way, while you focus on your health and recovery.
+                        </p>
+
+                        <h4 class="mt-5 ind-page-subtitle">Common Cancers and Conditions Linked to AFFF Exposure</h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item">Kidney cancer</li>
+                            <li class="list-group-item">Testicular cancer</li>
+                            <li class="list-group-item">Liver cancer</li>
+                            <li class="list-group-item">Thyroid cancer</li>
+                            <li class="list-group-item">Ulcerative colitis</li>
+                            <li class="list-group-item">Hypothyroidism (thyroid disease)</li>
+                        </ul>
+
+                        <p>
+                            Other conditions such as pancreatic cancer, breast cancer, prostate cancer, bladder cancer, and leukemia are also under investigation and may qualify for compensation depending on your specific case.
+                        </p>
+
+                        <h4 class="mt-5 ind-page-subtitle">Where AFFF Exposure Typically Occurs</h4>
+                        <p>Firefighting foam exposure is most common in the following environments:</p>
                         <div class="row">
-                            <div class="col-sm-12 col-md-5 col-lg-5">
+                            <div class="col-12 col-md-6">
                                 <ul class="list-group">
-                                    <li class="list-group-item">Fire stations</li>
-                                    <li class="list-group-item">Chemical plants</li>
-                                    <li class="list-group-item">Military facilities</li>
-                                    <li class="list-group-item">Aviation operations</li>
-                                    <li class="list-group-item">Highway emergency response</li>
-                                    <li class="list-group-item">Oil refineries</li>
-                                    <li class="list-group-item">Merchant operations, such as offshore plants and oil
-                                        tankers
-                                    </li>
-                                    <li class="list-group-item">Flammable liquid storage and processing facilities</li>
+                                    <li class="list-group-item">Fire stations and training facilities</li>
+                                    <li class="list-group-item">Military bases (especially Navy and Air Force)</li>
+                                    <li class="list-group-item">Airports and aviation hangars</li>
+                                    <li class="list-group-item">Chemical plants and oil refineries</li>
+                                    <li class="list-group-item">Highway accident scenes</li>
+                                    <li class="list-group-item">Offshore oil rigs and tankers</li>
+                                    <li class="list-group-item">Fuel storage depots</li>
                                 </ul>
                             </div>
                         </div>
+
+                        <h4 class="mt-5 ind-page-subtitle">Why Act Now?</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item">Thousands of cases are already filed in federal court</li>
+                            <li class="list-group-item">Trial dates are scheduled and settlements may be offered soon</li>
+                            <li class="list-group-item">You may lose your right to compensation if you wait too long</li>
+                            <li class="list-group-item">You can file at no upfront cost – legal teams work on contingency</li>
+                        </ul>
+
+                        <p class="mt-4">
+                            Don’t wait. If you or someone you know has suffered after AFFF exposure, take action today. Our network can help you determine your eligibility and connect you with the right legal support.
+                        </p>
+
+                        <p class="lead">
+                            <strong>Get the help you deserve. Reach out now for a free case review.</strong>
+                        </p>
                     </div>
                 </div>
+
+                {{-- Form --}}
+                <div class="col-md-5 mb-4 mb-md-0 order-1 order-md-2">
+                    {{-- Free Consultation Banner --}}
+                    <div class="text-center mb-3">
+        <span class="badge bg-success fs-5 px-4 py-2 shadow-sm">
+            FREE CONSULTATION
+        </span>
+                    </div>
+                    <div class="card border-0 shadow-sm" style="background-color: #f1f1f1"> {{-- Removed h-100 --}}
+
+                        {{-- Header with background color --}}
+                        <div class="px-4 py-3" style="background-color: #DCDCDC;">
+                            <p class="text-dark text-center mb-0">
+                                <b>Have you been affected by a Product or Service?</b>
+                            </p>
+                        </div>
+                        <div class="card-body p-4 rounded">
+                            <form id="getHelpForm" style="color: #000000; scroll-margin-top: 300px;">
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Type of Product Liability</label>
+                                    <select name="type" class="form-control">
+                                        <option value="Firefighting Foam">Firefighting Foam</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Is an attorney helping you with your case?</label>
+                                    <select name="is_attorney" class="form-control">
+                                        <option value="">-- select --</option>
+                                        <option value="1">Yes</option>
+                                        <option value="0">No</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Describe your case</label>
+                                    <textarea name="description" class="form-control"></textarea>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Were you hospitalized or received treatment?</label>
+                                    <select name="is_hospitalized" class="form-control">
+                                        <option value="">-- select --</option>
+                                        <option value="1">Yes</option>
+                                        <option value="0">No</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Year of Injury (DD/MM/YYYY)</label>
+                                    <input type="text" name="date_injured" id="date_injured_input" class="form-control" placeholder="DD/MM/YYYY" maxlength="10">
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Best time to call</label>
+                                    <select name="call_time" class="form-control">
+                                        <option value="">-- select --</option>
+                                        <option value="Morning">Morning</option>
+                                        <option value="Afternoon">Afternoon</option>
+                                        <option value="Evening">Evening</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">First Name</label>
+                                    <input type="text" name="firstname" class="form-control">
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Last Name</label>
+                                    <input type="text" name="lastname" class="form-control">
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Phone</label>
+                                    <input type="text" name="phone" class="form-control">
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Email</label>
+                                    <input type="email" name="email" class="form-control">
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Zip Code</label>
+                                    <input type="text" name="zip_code" class="form-control">
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <label class="mb-2 text-muted">Address</label>
+                                    <textarea name="address" class="form-control"></textarea>
+                                </div>
+
+                                <div class="form-group mb-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="terms" value="1">
+                                        <label class="form-check-label text-small text-muted" style="text-align: justify;">
+                                            By checking this box and submitting my request, I provide my electronic signature hereby agreeing to this website's <a href="{{ url('privacy-policy') }}">PRIVACY POLICY</a>, <a href="{{ url('tcpa-consent') }}">TCPA Consent</a> & <a href="{{ url('privacy-disclaimer') }}">Privacy Disclaimer</a> and expressly consent for Company and its network of lawyers and advocates to contact me at any telephone number or email address provided by me, even if the telephone number is a cellular phone or other service for which the called party is charged. I understand that this authorization overrides any previous registrations on a federal or state Do Not Call registry. I further consent to receive text message offers and communications at any wireless phone number I provide.
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @csrf
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div> {{-- End Form --}}
             </div>
-            @include('components.get-started-btn')
+        </div>
+        <div class="d-block d-md-none">
+            <div class="text-center mt-4 mb-5">
+                <a href="#getHelpForm"
+                   class="btn bg-ind-blue col-10 btn-lg text-uppercase fixed-bottom-btn-mobile"
+                   style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);">
+                    <i class="bx bi-box-arrow-right me-2"></i>SIGN UP NOW
+                </a>
+            </div>
         </div>
     </section>
 @endsection
+@push('css')
+    <style>
+        .fixed-bottom-btn-mobile {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1050;
+        }
+    </style>
+@endpush
+@push('js')
+    <script src="{{ asset('js/get-help.js') }}?v{{ \Illuminate\Support\Str::random() }}"></script>
+@endpush

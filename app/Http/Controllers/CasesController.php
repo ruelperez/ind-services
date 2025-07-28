@@ -15,6 +15,10 @@ class CasesController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'type' => 'required',
+            'is_attorney' => 'required',
+            'description' => 'required',
+            'is_hospitalized' => 'required',
+            'date_injured' => 'required',
             'call_time' => 'required',
             'firstname' => 'required',
             'lastname' => 'required',
@@ -25,10 +29,7 @@ class CasesController extends Controller
             'xxTrustedFormToken' => 'required',
             'xxTrustedFormCertUrl' => 'required',
             'xxTrustedFormPingUrl' => 'required',
-            'terms' => 'required',
-            'terms1' => 'required',
-            'terms2' => 'required',
-            'terms3' => 'required',
+            'terms' => 'required'
         ]);
 
         if ($validator->fails()) {
@@ -37,6 +38,10 @@ class CasesController extends Controller
 
         $newCase = CaseRecord::create([
             'type' => $request->type,
+            'is_attorney' => $request->is_attorney,
+            'description' => $request->description,
+            'is_hospitalized' => $request->is_hospitalized,
+            'date_injured' => \Carbon\Carbon::createFromFormat('d/m/Y', $request->input('date_injured'))->format('Y-m-d'),
             'call_time' => $request->call_time,
             'firstname' => $request->firstname,
             'lastname' => $request->lastname,

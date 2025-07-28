@@ -14,10 +14,6 @@ return new class extends Migration
         Schema::create('cases', function (Blueprint $table) {
             $table->id();
             $table->string('type');
-//            $table->boolean('is_attorney');
-//            $table->longText('description');
-//            $table->boolean('is_hospitalized');
-//            $table->date('date_injured');
             $table->string('call_time');
             $table->string('firstname');
             $table->string('lastname');
