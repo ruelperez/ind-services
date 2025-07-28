@@ -92,7 +92,11 @@
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="terms" value="1">
                         <label class="form-check-label text-small text-muted" style="text-align: justify;">
-                            By checking this box and submitting my request, I provide my electronic signature hereby agreeing to this website's <a href="{{ url('privacy-policy') }}">PRIVACY POLICY</a>, <a href="{{ url('tcpa-consent') }}">TCPA Consent</a> & <a href="{{ url('privacy-disclaimer') }}">Privacy Disclaimer</a> and expressly consent for Company and its network of lawyers and advocates to contact me at any telephone number or email address provided by me, even if the telephone number is a cellular phone or other service for which the called party is charged. I understand that this authorization overrides any previous registrations on a federal or state Do Not Call registry. I further consent to receive text message offers and communications at any wireless phone number I provide.
+                            By submitting "Yes", you provide your electronic signature and agree to be called at the number provided
+                            above by PLM about our services, which may include auto dialers and pre-recorded voice, even if your
+                            telephone number is currently listed on any state, federal or corporate Do Not Call registry. Your consent
+                            is not required to purchase any goods or services. You also agree to the <a href="{{ url('terms-&-condition') }}">Terms Of Use</a>
+                            (including arbitration) and <a href="{{ url('legal-privacy-policy') }}">Privacy Policy</a>. Message and data rates may apply. Message frequency varies.
                         </label>
                     </div>
                 </div>
