@@ -12,6 +12,7 @@ use App\Http\Controllers\ExportController;
 Route::get('/', [PageController::class, 'index']);
 
 Route::get('case/view/{uniqueURL}', [PageController::class, 'viewCase']);
+Route::get('depo-case/view/{uniqueURL}', [PageController::class, 'viewDepoCase']);
 
 Route::get('login', function () {
     return view('pages.login', [

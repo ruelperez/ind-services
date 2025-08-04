@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CaseRecord;
+use App\Models\DepoRecord;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
@@ -11,6 +12,15 @@ class PageController extends Controller
     public function index()
     {
         return view('pages.index', ['title' => 'ITTS Services']);
+    }
+
+    public function viewDepoCase($uniqueURL){
+        $case = DepoRecord::where('unique_url', $uniqueURL)->first();
+        if (!$case) {
+            abort(404);
+        }
+
+        return view('pages.view-depo-case', ['title' => "Case #$case->id", 'case' => $case]);
     }
 
     public function page($page)
