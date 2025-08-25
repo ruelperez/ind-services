@@ -8,12 +8,12 @@
                   <span> Dashboard</span>
                 </a>
               </li>
-                <li id="CasesPageItem">
-                    <a href="{{ url('/dashboard/admin/cases') }}">
-                        <img src="{{ asset('admin/img/icons/transcation.svg') }}" alt="img">
-                        <span>Mass Tort</span>
-                    </a>
-                </li>
+{{--                <li id="CasesPageItem">--}}
+{{--                    <a href="{{ url('/dashboard/admin/cases') }}">--}}
+{{--                        <img src="{{ asset('admin/img/icons/transcation.svg') }}" alt="img">--}}
+{{--                        <span>Mass Tort</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
                 <li id="DepoCasesPageItem">
                     <a href="{{ url('/dashboard/admin/depo-cases') }}">
                         <img src="{{ asset('admin/img/icons/transcation.svg') }}" alt="img">
@@ -23,7 +23,7 @@
               <li id="OtherServicesPageItem">
                 <a href="{{ url('/dashboard/admin/other-services') }}">
                   <img src="{{ asset('admin/img/icons/transcation.svg') }}" alt="img">
-                  <span>Other Services</span>
+                  <span>Other Cases</span>
                 </a>
               </li>
             </ul>

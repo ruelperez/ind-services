@@ -25,6 +25,11 @@
                 <p class="text-ind-dark" style="margin-top: 150px;">{{ $title }}</p>
             </div>
         @endif
+        @if($title == "Motor Vehicle Accident Lawsuit")
+            <div class="section-title w-100 mt-5 mb-5 text-center" style="height: 250px;">
+                <p class="text-ind-dark" style="margin-top: 150px;">{{ $title }}</p>
+            </div>
+        @endif
 {{--        <div class="section-title w-100 mt-5 mb-5">--}}
 {{--            <p class="text-ind-dark">{{ $title }} The Best TV Experience at Your Fingertips</p>--}}
 {{--        </div>--}}

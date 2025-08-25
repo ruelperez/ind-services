@@ -13,7 +13,7 @@ class AdminDashboardController extends Controller
 
             switch ($page) {
                 case 'index':
-                    return redirect('dashboard/admin/cases');
+                    return redirect('dashboard/admin/other-services');
                     // $title = 'Dashboard';
                     break;
 
