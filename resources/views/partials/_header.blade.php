@@ -23,6 +23,7 @@
                 <ul>
                     <li class="dropdown"><a href="#"><span>Mass Tort</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
+                            <li><a href="{{ url('services/mass-tort/ssdi') }}">SSDI</a></li>
                             <li><a href="{{ url('services/mass-tort/roblox-lawsuit') }}">Roblox Lawsuit</a></li>
                             <li><a href="{{ url('services/mass-tort/nec-baby-formula-lawsuit') }}">NEC Baby Formula Lawsuit</a></li>
                             <li><a href="{{ url('services/mass-tort/motor-vehicle-accident-lawsuit') }}">Motor Vehicle Accident Lawsuit</a></li>
