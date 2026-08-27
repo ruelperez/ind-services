@@ -92,11 +92,8 @@
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="terms" value="1">
                         <label class="form-check-label text-small text-muted" style="text-align: justify;">
-                            By submitting "Yes", you provide your electronic signature and agree to be called at the number provided
-                            above by PLM about our services, which may include auto dialers and pre-recorded voice, even if your
-                            telephone number is currently listed on any state, federal or corporate Do Not Call registry. Your consent
-                            is not required to purchase any goods or services. You also agree to the <a href="{{ url('terms-&-condition') }}">Terms Of Use</a>
-                            (including arbitration) and <a href="{{ url('legal-privacy-policy') }}">Privacy Policy</a>. Message and data rates may apply. Message frequency varies.
+                            I agree and consent to be contacted regarding my inquiry.
+                            By checking this box and submitting this form, I expressly agree to the <a href="{{ url('terms-&-condition') }}">Terms Of Use</a> and <a href="{{ url('legal-privacy-policy') }}">Privacy Policy</a>, authorizing IND Legal Services, its network of lawyers, advocates, and LawLogic, along with their marketing partners, to contact me by phone, text, or email regarding my request or related services. This may include marketing calls and text messages using automated dialing systems, artificial, pre-recorded, or robotic voice technology, and interactive AI, where permitted by applicable law. Standard messaging rates may apply. I consent to be contacted even if my number is on a Do Not Call list. I understand that my consent is not a condition of receiving any service.
                         </label>
                     </div>
                 </div>
