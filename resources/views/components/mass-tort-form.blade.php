@@ -90,6 +90,7 @@
 
                 <div class="form-group mb-4">
                     <div class="form-check">
+                        <h6> Consent to Contact.</h6>
                         <input class="form-check-input" type="checkbox" name="terms" value="1">
                         <label class="form-check-label text-small text-muted" style="text-align: justify;">
                             I agree and consent to be contacted regarding my inquiry.
