@@ -11,8 +11,11 @@ use App\Http\Controllers\ExportController;
 
 Route::get('/', [PageController::class, 'index']);
 
+Route::post('lawlogic/api/submit', [PageController::class, 'LawlogicApiSubmit']);
+
 Route::get('case/view/{uniqueURL}', [PageController::class, 'viewCase']);
 Route::get('depo-case/view/{uniqueURL}', [PageController::class, 'viewDepoCase']);
+Route::get('lawlogic-case/view/{uniqueURL}', [PageController::class, 'viewLawlogicCase']);
 
 Route::get('login', function () {
     return view('pages.login', [
@@ -34,6 +37,12 @@ Route::prefix('services')->group(function () {
 });
 
 Route::prefix('func')->group(function () {
+    Route::prefix('certificate-2')->controller(\App\Http\Controllers\Certificate2Controller::class)->group(function () {
+        Route::post('claim', 'claim');
+        Route::post('/update-status/{status}', 'updateStatus');
+        Route::post('/update-lawlogic-status/{status}', 'updateLawlogicStatus');
+    });
+
     Route::prefix('auth')->controller(AuthController::class)->group(function () {
         Route::post('login', 'login');
         Route::get('logout', 'logout');
@@ -44,6 +53,10 @@ Route::prefix('func')->group(function () {
     });
 
     Route::prefix('case')->controller(CasesController::class)->group(function () {
+        Route::post('add', 'add');
+    });
+
+    Route::prefix('lawlogic')->controller(\App\Http\Controllers\LawlogicController::class)->group(function () {
         Route::post('add', 'add');
     });
 

@@ -57,7 +57,7 @@
                 </div>
 
                 {{-- Form --}}
-                @include('components.mass-tort-form', ['prod' => 'SSDI'])
+                @include('components.lawlogic-form', ['prod' => 'SSDI'])
             </div>
         </div>
         @include('components.sign-up-btn')
@@ -77,5 +77,5 @@
 @endpush
 
 @push('js')
-    <script src="{{ asset('js/get-help.js') }}?v{{ \Illuminate\Support\Str::random() }}"></script>
+    <script src="{{ asset('js/lawlogic-form.js') }}?v{{ \Illuminate\Support\Str::random() }}"></script>
 @endpush
