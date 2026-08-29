@@ -25,6 +25,8 @@
                 {{-- Campaign code --}}
                 <input type="hidden" name="code" value="SSDICalls">
 
+                <input type="hidden" name="special_route" value="Yes">
+
                 <div class="form-group mb-4">
                     <label class="mb-2 text-muted">First Name</label>
                     <input type="text" name="first_name" class="form-control">
